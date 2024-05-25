@@ -1,5 +1,3 @@
-// script.js
-
 const notesSection = document.getElementById("notes");
 
 const notes = [
