@@ -2,15 +2,16 @@ const notesSection = document.getElementById("notes");
 
 const notes = [
   {
-    title: "Note 1",
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    category: "Science",
+    title: "Tasty Chocalte Snack",
+    content:
+      "Adding milk chocolate, cinnamon, dipping buscuits, and freezing it is my go to snack!",
+    category: "Food",
   },
   {
-    title: "Note 2",
+    title: "Favorite part in Dune 2",
     content:
-      "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    category: "Art",
+      "When they are ambushing a spice harvester, and chani shoots down a hornithoptor!",
+    category: "Films",
   },
 ];
 
