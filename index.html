@@ -8,17 +8,41 @@
   </head>
   <body>
     <header>
-      <h1>Welcome to PUNOTES</h1>
+      <h1>PUNOTES</h1>
+      <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+      <nav class="menu">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">My Notes</a></li>
+          <li><a href="#">Public Notes</a></li>
+          <li><a href="#">Categories</a></li>
+        </ul>
+      </nav>
     </header>
 
     <main>
-      <section id="notes">
-        <!-- Note Cards will be dynamically added here using JavaScript -->
+      <section class="notes">
+        <article id="note1">
+          <h2>Traversing a jungle basics</h2>
+          <p>
+            Just bring some bug spray next time you go traveling in a jungle,
+            lest you end up being bitten by something you don't want.
+          </p>
+          <button class="like-btn">Like</button>
+        </article>
+        <article id="note2">
+          <h2>How to survive snake poison</h2>
+          <p>
+            When Bitten by snake, don't try to suck the poison, tightly wrap a
+            piece of cloth above the area, and quickly go to a hospital.
+          </p>
+          <button class="like-btn">Like</button>
+        </article>
       </section>
     </main>
 
     <footer>
-      <p>&copy; 2024 PUNOTES - All rights reserved.</p>
+      <p>&copy; 2024 PUNOTES. All rights reserved.</p>
     </footer>
 
     <script src="app.js"></script>
