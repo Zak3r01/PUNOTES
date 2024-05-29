@@ -7,5 +7,11 @@ likeButtons.forEach((button) => {
 });
 function toggleMenu() {
   var menu = document.querySelector(".menu");
+  var menuToggle = document.querySelector(".menu-toggle");
   menu.classList.toggle("active");
+  if (menu.classList.contains("active")) {
+    menuToggle.textContent = "✕";
+  } else {
+    menuToggle.textContent = "☰";
+  }
 }
